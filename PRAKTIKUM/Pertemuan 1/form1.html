@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!---HEAD OF HTML--->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <<meta HTTP-EQUIV="REFRESH"content="5; url=http://google.co.id">
+    <!---Title Web--->
+    <title>FORM HTML</title>
+</head>
+
+<!---BODY OF HTML--->
+<body>
+    <font type=arial size="5">
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        <font type=arial black font size="8">FORM HTML</font>
+                    </td>
+                </tr>
+            </thead>
+            <!---Tampilan Nama dan Text Box--->
+            <tr>
+                <td>NAME</td>
+                <td> : </td>
+                <td><input type="text" name="name"></td>
+            </tr>
+            <!---Tampilan Gender dan Radio Button--->
+            <tr>
+                <td>GENDER</td>
+                <td> : </td>
+                <td>
+                    <input type="radio" name="gender" value="M">Man
+                    <input type="radio" name="gender" value="W">Woman
+                </td>
+            </tr>
+            <!---Tampilan Address dan Text Box--->
+            <tr>
+                <td>ADDRESS</td>
+                <td> : </td>
+                <td><input type="text" name="address"></td>
+            </tr>
+            <!---Tampilan Country dan Menu Option--->
+            <tr>
+                <td>COUNTRY</td>
+                <td> : </td>
+                <td colspan="3">
+                    <select name="Country" id="">
+                        <option value="ina">Indonesia</option>
+                        <option value="tur">Turkey</option>
+                        <option value="pal">Palestine</option>
+                        <option value="ind">India</option>
+                    </select>
+                </td>
+            </tr>
+            <!---Tampilan Email dan Text Box--->
+            <tr>
+                <td>EMAIL</td>
+                <td> : </td>
+                <td><input type="text" name="email"></td>
+            </tr>
+            <!---Tampilan Photo, Text Box, dan Button (Browse)--->
+            <tr>
+                <td>PHOTO</td>
+                <td> : </td>
+                <td>
+                    <input type="text" name="url-image" id="">
+                    <input type="submit" value="Browse" name="browse">
+                </td>
+            </tr>
+            <!---Tampilan Comment, Text Area, dan Button (Submit)--->
+            <tr>
+                <td>COMMENT</td>
+                <td> : </td>
+                <td colspan="3">
+                    <textarea name="comment" id="" cols="30" rows="5" align="center">Text your comment!</textarea>
+                    <input type="submit" value="Submit" name="submit">
+                </td>
+            </tr>
+        </table>
+    </font>
+</body>
+</html>
