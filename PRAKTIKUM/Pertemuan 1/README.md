@@ -12,7 +12,9 @@
         Pernah
      2. Cobalah ubah nilai meta refresh <meta HTTP-EQUIV="REFRESH"content="5; url=http://google.co.id"> 
         Apa yang terjadi? Jelaskan apa di antara kegunaan meta dokumen?
-        
+![google](https://user-images.githubusercontent.com/58089002/138737246-64ed0a58-3854-475c-8d05-bf38d5617e2f.png)
+         
+        Kegunaan dari meta dokumen adalah 
      3. Jelaskan fungsi tag HTML pada Table: thead, tbody, tr, th serta td!
         
         
