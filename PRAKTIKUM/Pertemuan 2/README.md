@@ -4,6 +4,6 @@
 
 # THE RESULT AFTER OPEN IN BROWSER
 A. PRAKTEK
-![SS latihan css](https://user-images.githubusercontent.com/58089002/138749575-3a59c188-38b0-45b9-be89-1fdbc38a6bcf.png)
+![SS latihan css](https://user-images.githubusercontent.com/58089002/138750089-263476a8-aee7-42de-abe2-76f126bc8167.png)
 
 B. LATIHAN
