@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!---HEAD OF HTML--->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Title Web--->
+    <title>FORM HTML</title>
+</head>
+
+<!---BODY OF HTML--->
+<body>
+    <font type=arial size="5">
+        <table>
+            <thead>
+                <tr>
+                    <td>
+                        <font type=arial black font size="8">DATA DIRI</font>
+                    </td>
+                </tr>
+            </thead>
+            <tr>
+                <td>NAMA</td>
+                <td> : </td>
+                <td><input type="text" name="NAMA"></td>
+            </tr>
+            <tr>
+                <td>NIM</td>
+                <td> : </td>
+                <td><input type="text" name="NIM"></td>
+            </tr>
+            <tr>
+                <td>PASSWORD</td>
+                <td> : </td>
+                <td><input type="text" name="nama" size="11" maxlength="9"></td>
+            </tr>
+            <tr>
+                <td>JENIS KELAMIN</td>
+                <td> : </td>
+                <td>
+                    <input type="radio" name="jk" value="L">Laki-Laki
+                    <input type="radio" name="jk" value="P">Perempuan
+                </td>
+            </tr>
+            <tr>
+                <td>HOBI</td>
+                <td> : </td>
+                <td>
+                    <input type="checkbox" name="hobi-1" value="Bernyanyi">Bernyanyi
+                    <input type="checkbox" name="hobi-2" value="Main Gim">Main Gim
+                    <input type="checkbox" name="hobi-3" value="Berkebun">Berkebun
+                    <input type="checkbox" name="hobi-4" value="Baca Komik Webtoon">Baca Komik Webtoon
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <img src="C:\Users\judha\Pictures\hogwarts.png" width="220" height="120">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <form>
+                        <input type="submit" value="Kirim" name="Submit">
+                        <input type="reset" value="Ulang" name="Reset">
+                        <input type="button" value="Batal" name="Cancel">
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <textarea name="deskripsi" id="" cols="45" rows="5" align="center">Tuliskan deskripsi singkat Anda!</textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3"> 
+                    Silahkan pilih Orientasi Minat :
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <select name="orientasi-minat" id="">
+                        <option value="dg">Song Writer</option>
+                        <option value="p">Programmer</option>
+                        <option value="dp">Data Analyst</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="orientasi-kemampuan" id="">
+                        <option value="dg">Arrange</option>
+                        <option value="p">Coding</option>
+                        <option value="dp">Analyst</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+    </font>
+</body>
+</html>
