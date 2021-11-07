@@ -1,0 +1,248 @@
+.div1 {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(50, 55, 145);
+}
+  
+.tr1 {
+  text-align: center;
+  color: black;
+}
+.tr1:hover {
+  color: white;
+}
+
+.table1 {
+  color: white;
+  font-family: sans-serif;
+  padding-left: 100px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: -20px;
+}
+
+.table2 {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 28px;
+  background-color: dodgerblue;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Tampilan Tombol Button & Fungsi Aktif Button */
+button:active{
+  transform: scale(1.1);
+}
+.contact{
+  font-size: 20px;
+  color: black;
+  background-color: rgb(23, 110, 23);
+  text-align: center;
+}
+.contact:hover{
+  color: white;
+  background-color: grey;
+}
+.cv{
+  font-size: 20px;
+  color: black;
+  background-color: #0f6288;
+  text-align: center;
+}
+.cv:hover{
+  color: white;
+  background-color: grey;
+}
+
+/*Tampilan About Me*/
+.judul-aboutMe{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: dodgerblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+.judul-aboutMe:hover{
+  color: white;
+} 
+.konten-aboutMe{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgb(50, 55, 145);
+  color: whitesmoke;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Tampilan Menu My Profile*/
+.judul-myProfile{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: dodgerblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+.judul-myProfile:hover{
+  color: white;
+}
+
+/* Konten My Profile */
+.konten-profil {
+  padding: 100px 250px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 55, 145);
+  margin-left: auto;
+  margin-right: auto;
+}
+.foto-profil {
+  margin-left: 50px;
+  margin-top: -20px;
+}
+.isi-profil {
+  width: 50%;
+  height: 300px;
+  color: white;
+  background-color: rgb(78, 62, 62);
+  border-radius: 20px;
+  padding-top: 50px;
+  padding-left: 50px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+/* Tampilan Menu My Experience */
+.judul-myExperience{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: dodgerblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+.judul-myExperience:hover{
+  color: white;
+}
+
+/* Konten Experience */
+.konten-experience {
+  display: grid;
+  margin: 30px auto;
+  width: 73%;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.smartArtExperience {
+  margin-top: auto;
+  margin-bottom: auto;
+  background-color: grey;
+  height: 250px;
+  width: 30%;
+  border-radius: 12px;
+}
+.smartArtExperience p.heading {
+  margin-top: 0px;
+  background-color: rgb(36, 36, 230);
+  padding: 20px;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  border-radius: 9px 9px 0 0;
+}
+.smartArtExperience ul.foot {
+  font-size: 20px;
+}
+
+/* Tampilan Menu My Interest */
+.judul-myInterest{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: dodgerblue;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+} 
+.judul-myInterest:hover{
+  color: white;
+}
+
+/* Konten Interest */
+.konten-interest {
+  height: 600px;
+  margin-top: -100px;
+}
+
+.sub {
+  position: absolute;
+  display: flex;
+  width: 60%;
+  margin: 200px 310px;
+  justify-content: space-around;
+}
+.sub-interest img {
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.sub-interest .id {
+  font-size: 24px;
+  text-align: center;
+  color: black;
+  font-weight: 700;
+}
+
+/* Tampilan Menu Footer */
+.footer {
+  background-color: dodgerblue;
+  height: 225px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.isi-footer {
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.teks-footer {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  color: white;
+}
+.teks-footer .alamat {
+  width: 60%;
+}
+.teks-footer .batas {
+  background-color: white;
+  width: 5px;
+}
+
+/* Tampilan Media Sosial di Footer*/
+.sosmed-footer {
+  display: grid;
+}
+.sos {
+  display: flex;
+}
+.sos ion-icon {
+  font-size: 30px;
+}
+.sos p {
+  margin-top: 0px;
+  margin-left: 10px;
+}
+.sos:hover {
+  color: black;
+}
