@@ -9,8 +9,6 @@ A. PRAKTEK
 
 B. LATIHAN
 
-file:///C:/Users/judha/IdeaProjects/DPW%202/PRAKTIKUM/MODUL%202/portofolio.html
-
-![hasil1](https://user-images.githubusercontent.com/58089002/140654321-69493b20-44a9-4a41-acb1-369f654ed66f.png)
-![hasil2](https://user-images.githubusercontent.com/58089002/140654313-e48d81de-ab1e-44d7-93bc-4aeec39a84e6.png)
-![hasil3](https://user-images.githubusercontent.com/58089002/140654318-0c49bc0f-8b83-486f-9e38-baa39ac706f1.png)
+![hasil1](https://user-images.githubusercontent.com/58089002/140654497-c99f7513-68d9-4357-9b0f-e4f28439251f.png)
+![hasil2](https://user-images.githubusercontent.com/58089002/140654501-da86c51c-15b3-4542-b1bd-83f80a877d61.png)
+![hasil3](https://user-images.githubusercontent.com/58089002/140654503-255aa053-cc45-4062-81cd-ad68635d7284.png)
