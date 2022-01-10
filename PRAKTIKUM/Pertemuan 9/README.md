@@ -28,3 +28,5 @@
 ![image](https://user-images.githubusercontent.com/58089002/148805506-4e41fc86-3dcc-4fc0-9562-4f0505bb15b9.png)
 
 3. "Update" and "Delete"
+![image](https://user-images.githubusercontent.com/58089002/148807767-2ae39f3d-02c0-46c9-8803-85c8b62f5804.png)
+![image](https://user-images.githubusercontent.com/58089002/148808097-35955856-9a49-482d-b114-3939086ee33b.png)
