@@ -25,5 +25,6 @@
 
 2. "Create" and "Read"
 ![image](https://user-images.githubusercontent.com/58089002/148776864-fd9a6142-f80c-4f8e-815d-fbddbc6996d9.png)
+![image](https://user-images.githubusercontent.com/58089002/148805506-4e41fc86-3dcc-4fc0-9562-4f0505bb15b9.png)
 
 3. "Update" and "Delete"
