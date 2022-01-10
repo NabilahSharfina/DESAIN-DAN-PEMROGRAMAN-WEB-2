@@ -24,9 +24,11 @@
 ![image](https://user-images.githubusercontent.com/58089002/148802212-3962bc84-bfa8-4778-8c48-0155f56962b0.png)
 
 2. "Create" and "Read"
-![image](https://user-images.githubusercontent.com/58089002/148776864-fd9a6142-f80c-4f8e-815d-fbddbc6996d9.png)
-![image](https://user-images.githubusercontent.com/58089002/148805506-4e41fc86-3dcc-4fc0-9562-4f0505bb15b9.png)
+![image](https://user-images.githubusercontent.com/58089002/148813197-941bd6f7-d377-4dd5-aeb2-7c5b61f5df9a.png)
+![image](https://user-images.githubusercontent.com/58089002/148813257-eb499f81-7387-4738-adc2-e541121406c0.png)
+![image](https://user-images.githubusercontent.com/58089002/148813329-f3f40f26-9ed2-4590-8e1f-9aa8eedfe8b1.png)
 
 3. "Update" and "Delete"
 ![image](https://user-images.githubusercontent.com/58089002/148807767-2ae39f3d-02c0-46c9-8803-85c8b62f5804.png)
+![image](https://user-images.githubusercontent.com/58089002/148809903-b5ba4c50-cec8-4fbd-ae05-08c5122e8c5a.png)
 ![image](https://user-images.githubusercontent.com/58089002/148808097-35955856-9a49-482d-b114-3939086ee33b.png)
