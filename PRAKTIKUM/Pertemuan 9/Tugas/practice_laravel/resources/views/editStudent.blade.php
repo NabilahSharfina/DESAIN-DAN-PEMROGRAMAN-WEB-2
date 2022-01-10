@@ -10,76 +10,108 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/css/bootstrap.min.css" integrity="sha512-T584yQ/tdRR5QwOpfvDfVQUidzfgc2339Lc8uBDtcp/wYu80d7jwBgAxbyMh0a9YM9F8N3tdErpFI8iaGx6x5g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="pull-left">
-                <h2>Edit Student</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 margin-tb">
+                <!--- Menampilkan menu kembali ke URL /mahasiswa (menu utama), ketika mengakses URL /mahasiswa, maka akan diarahkan ke class StudentController dengan method index -->
+                <div class="pull-left">
+                    <a class="btn btn-primary" href="/mahasiswa" title="Go back">
+                        <i class="fas fa-backward "></i>
+                    </a>
+                </div>
+                <!-- Judul Sub Menu -->
+                <div class="pull-right">
+                    <h2>Edit Student</h2>
+                </div>
             </div>
-            <div class="pull-right">
-                <a class="btn btn-primary" href="{{ route('projects.index') }}" title="Go back"> <i class="fas fa-backward "></i> </a>
-            </div>
-
-            <form action="/mahasiswa/{{ $student->id }}/edit" method="post">
-                @csrf
-                @method('put')
-
-                <table>
-                    <tr>
-                        <td><label for="nim">NIM</label></td>
-                        <td> : </td>
-                        <td><input value="{{ $student->nim }}" type="text" name="nim" id="nim" required></td>
-                    </tr>
-                    <br>
-                    <tr>
-                        <td><label for="name">Name</label></td>
-                        <td> : </td>
-                        <td><input value="{{ $student->name }}" type="text" name="name" id="name" required></td>
-                    </tr>
-                    <br>
-                    <tr>
-                        <td><label for="gender">Gender</label></td>
-                        <td> : </td>
-                        <td>
-                            <select name="gender" required id="">
-                                <option value="#">Choose</option>
-                                <!-- Menampilkan hasil option yang dipilih -->
-                                <option selected value="{{ $student->gender }}">{{ $student->gender }}</option>
-
-                                @foreach ($gender as $gd)
-                                <option value="{{ $gd }}">{{ $gd }}</option>
-                                @endforeach
-                            </select>
-                        </td>
-                    </tr>
-                    <br>
-                    <tr>
-                        <td><label for="department">Department</label></td>
-                        <td> : </td>
-                        <td>
-                            <select name="department" required id="">
-                                <option value="#">Choose</option>
-                                <!-- Menampilkan hasil option yang dipilih -->
-                                <option selected value="{{ $student->department }}">{{ $student->department }}</option>
-
-                                @foreach ($department as $dp)
-                                    <option value="{{ $dp }}">{{ $dp }}</option>
-                                @endforeach
-                            </select>
-                        </td>
-                    </tr>
-                    <br>
-                    <tr>
-                        <td><label for="address">Address</label></td>
-                        <td> : </td>
-                        <td><input value="{{ $student->address }}" type="text" name="address" id="address" required></td>
-                    </tr>
-                    <br>
-                    <tr>
-                        <td><button type="submit">SAVE</button></td>
-                    </tr>
-                </table>
-            </form>
         </div>
+
+        <!--- Menampilkan pesan notifikasi apabila berhasil -->
+        @if(session('pesan'))
+            <div class="alert alert-success">
+                {{ session('pesan') }}
+            </div>
+        @endif
+
+        <!--- Menampilkan pesan notifikasi apabila terjadi kesalahan / error -->
+        @if ($errors->any())
+            <div class="alert alert-danger">
+                <strong>Oops!</strong> There were some problems with your input.
+                <br>
+                <br>
+                <ul>
+                    @foreach ($errors->all() as $error)
+                        <li>{{ $error }}</li>
+                    @endforeach
+                </ul>
+            </div>
+        @endif
+
+        <!--- Menampilkan menu ubah data mahasiswa, ketika mengakses URL /mahasiswa/{id}/edit dengan method post, maka akan diarahkan ke class StudentController dengan method edit -->
+        <form action="/mahasiswa/{{ $student->id }}/edit" method="post">
+            @csrf
+            @method('put') <!--- Menampilkan menu ubah data mahasiswa, ketika mengakses URL /mahasiswa/{id}/edit dengan method post, maka akan diarahkan ke class StudentController dengan method update -->
+
+            <div class="row">
+                <!-- Kolom input NIM -->
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>NIM :</strong>
+                        <input type="text" name="nim" class="form-control" placeholder="nim">
+                    </div>
+                </div>
+                <!-- Kolom input Nama -->
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Name :</strong>
+                        <input type="text" name="name" class="form-control" placeholder="name">
+                    </div>
+                </div>
+                <!-- Kolom opsi memilih jenis kelamin -->
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Gender :</strong>
+                        <select name="gender" required id="" class="form-control" placeholder="gender">
+                            <!-- Menampilkan hasil opsi yang dipilih -->
+                            <option value="#" selected>Choose</option>
+                            <option value="{{ $student->gender }}">{{ $student->gender }}</option>
+
+                            @foreach ($gender as $gd)
+                                <option value="{{ $gd }}">{{ $gd }}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                </div>
+                <!-- Kolom opsi memilih jurusan -->
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Department :</strong>
+                        <select name="department" required id="" class="form-control" placeholder="department">
+                            <!-- Menampilkan hasil opsi yang dipilih -->
+                            <option value="#" selected>Choose</option>
+                            <option value="{{ $student->department }}">{{ $student->department }}</option>
+
+                            @foreach ($department as $dp)
+                                <option value="{{ $dp }}">{{ $dp }}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                </div>
+                <!-- Kolom input alamat -->
+                <div class="col-xs-12 col-sm-12 col-md-12">
+                    <div class="form-group">
+                        <strong>Address :</strong>
+                        <input type="text" name="address" class="form-control" placeholder="address">
+                    </div>
+                </div>
+                <!-- Button primary submit data -->
+                <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </form>
     </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 </body>
 </html>
