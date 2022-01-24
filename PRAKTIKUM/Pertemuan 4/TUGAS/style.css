@@ -22,8 +22,8 @@ body {
     width: 50%;
     padding: 10px;
     text-align: center;
-    background-color: #e5eecc;
-    border: solid 5px rgb(255, 182, 182);
+    background-color: whitesmoke;
+    border: solid 5px blueviolet;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     color: rgb(83, 82, 82);
@@ -40,7 +40,7 @@ body {
     padding: 10px;
     text-align: center;
     background-color: #868686;
-    border: solid 5px rgb(255, 182, 182);
+    border: solid 5px cornflowerblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     color: rgb(228, 228, 228);
@@ -57,8 +57,8 @@ body {
     width: 50%;
     padding: 10px;
     text-align: center;
-    background-color: #e5eecc;
-    border: solid 5px rgb(255, 182, 182);
+    background-color: whitesmoke;
+    border: solid 5px blueviolet;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     color: rgb(83, 82, 82);
@@ -75,7 +75,7 @@ body {
     padding: 10px;
     text-align: center;
     background-color: #868686;
-    border: solid 5px rgb(255, 182, 182);
+    border: solid 5px cornflowerblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     color: rgb(228, 228, 228);
@@ -92,8 +92,8 @@ body {
     width: 50%;
     padding: 10px;
     text-align: center;
-    background-color: #e5eecc;
-    border: solid 5px rgb(255, 182, 182);
+    background-color: whitesmoke;
+    border: solid 5px blueviolet;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     color: rgb(83, 82, 82);
@@ -110,7 +110,7 @@ body {
     padding: 10px;
     text-align: center;
     background-color: #868686;
-    border: solid 5px rgb(255, 182, 182);
+    border: solid 5px cornflowerblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     color: rgb(228, 228, 228);
@@ -127,8 +127,8 @@ body {
     width: 50%;
     padding: 10px;
     text-align: center;
-    background-color: #e5eecc;
-    border: solid 5px rgb(255, 182, 182);
+    background-color: whitesmoke;
+    border: solid 5px blueviolet;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     color: rgb(83, 82, 82);
@@ -145,7 +145,7 @@ body {
     padding: 10px;
     text-align: center;
     background-color: #868686;
-    border: solid 5px rgb(255, 182, 182);
+    border: solid 5px cornflowerblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
     color: rgb(228, 228, 228);
@@ -153,6 +153,76 @@ body {
 }
 
 #Pinfo-lucy {
+    display: none;
+    padding: 10px;
+}
+
+#panel-eustace, #flip-eustace {
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: solid 5px blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: rgb(83, 82, 82);
+    font-weight: bold;
+}
+  
+#panel-eustace {
+    display: none;
+}
+
+#info-eustace {
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: #868686;
+    border: solid 5px cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+}
+
+#Pinfo-eustace {
+    display: none;
+    padding: 10px;
+}
+
+#panel-caspian, #flip-caspian {
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    border: solid 5px blueviolet;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: rgb(83, 82, 82);
+    font-weight: bold;
+}
+  
+#panel-caspian {
+    display: none;
+}
+
+#info-caspian {
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: #868686;
+    border: solid 5px cornflowerblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    color: rgb(228, 228, 228);
+    font-weight: bold;
+}
+
+#Pinfo-caspian {
     display: none;
     padding: 10px;
 }
