@@ -31,5 +31,6 @@
   "prettier.singleQuote": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "bracketPairColorizer.depreciation-notice": false,
-  "window.zoomLevel": -1
+  "window.zoomLevel": -1,
+  "livePreview.defaultPreviewPath": "/PRAKTIKUM/Pertemuan 3/TUGAS/index.html"
 }
